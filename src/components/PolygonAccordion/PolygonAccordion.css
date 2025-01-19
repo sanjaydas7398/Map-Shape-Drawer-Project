@@ -1,0 +1,36 @@
+.rotate-90 {
+  transform: rotate(0deg);
+  transition: transform 0.5s ease; 
+}
+
+.rotate-0 {
+  transform: rotate(180deg);
+  transition: transform 0.5s ease; 
+}
+
+.accordion-body {
+  max-height: 0; 
+  overflow: hidden; 
+  transition: max-height 0.5s ease-in-out; 
+}
+
+.accordion-body.height-max {
+  max-height: 500px; 
+  transition: max-height 0.5s ease-in-out;
+}
+
+.nested-table {
+  width: 100%;
+}
+.accordion-toggle {
+  cursor: pointer;
+}
+.label-1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.distance-cell {
+  text-align: center !important;
+}

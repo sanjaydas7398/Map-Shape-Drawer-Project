@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+.container {
+  padding: 15px 10px;
+}
+
+.geometry-selection {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.geometry-selection label {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.geometry-selection .form-select {
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  background-color: #e9ecef;
+  color: #111827;
+  cursor: pointer;
+}
+
+.geometry-selection .form-select:focus {
+  outline: none;
+  border-color: gray;
+  background-color: #fff;
+}
+
+.geometry-selection button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: gray;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

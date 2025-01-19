@@ -1,0 +1,121 @@
+
+   .modal-overlay {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    min-width: 300px;
+    max-width: max-content;
+    max-height: 400px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 999;
+    padding: 15px;
+  }
+
+  .upload-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: green;
+  }
+  
+  .model-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 19px;
+  }
+  .table-content {
+    max-height: 200px;
+    overflow: auto;
+  }
+  
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .modal-footer {
+    display: flex;
+    justify-content: end;
+  }
+   
+  .generate-btn {
+    background-color: #3f5ccd;
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+  }
+
+  .import-btn {
+    background-color: rgb(26 117 168);
+    padding: 10px;
+    color: white;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+  }
+
+  .discard-btn{
+    background: none;
+    border: none;
+    color: #ccc;
+    font-weight: 700;
+  }
+  
+  .modal-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .polygon-modal-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-top: 1px solid black;
+  }
+  
+  .modal-table th, .modal-table td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: left;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .generate-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .generate-button:hover {
+    background-color: #0056b3;
+  }
+
+  .table-content .modal-table tbody tr {
+    background-color: #e9ecef;
+  }
+  .dropdown-toggle {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 5px;
+    position: relative;
+  }
+  
+  
+  

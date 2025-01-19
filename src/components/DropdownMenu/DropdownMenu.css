@@ -1,0 +1,30 @@
+.dropdown-menu {
+    position: absolute;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    z-index: 10;
+    width: 200px;
+    top: 50px;
+    left: 540px;
+  }
+  
+  .dropdown-item {
+    font-size: 12px;
+    padding: 8px 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.2s ease;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f0f0f0;
+  }
+  .dropdown-icon {
+    font-size: 19px;
+    margin-right: 10px;
+  }
+  
