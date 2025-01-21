@@ -17,3 +17,6 @@ Technology -
  -> React 
  -> JavaScript 
  -> CSS (React-Icons)
+
+
+Check out the live version of this project -> https://relaxed-youtiao-4bd21a.netlify.app/
